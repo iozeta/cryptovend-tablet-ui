@@ -4,7 +4,7 @@
     <div class="qr" v-if="invoice">
       <qrcode-vue :value="invoice" size="275" level="H"></qrcode-vue>
     </div>
-    <img alt="Vue logo" src="../assets/logo.png">    
+    <img alt="Vue logo" src="../assets/logo.png">
   </div>
 </template>
 
@@ -23,7 +23,7 @@ export default {
   methods: {
     newInvoice() {
       opennode.createCharge({
-        amount: 0.05,
+        amount: 1.00,
         currency: 'USD',
         auto_settle: false
       }).then(res => {

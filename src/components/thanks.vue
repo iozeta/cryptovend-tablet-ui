@@ -1,6 +1,11 @@
 <template>
   <div class="thanks">
-    <button class="btn thanks-btn">THANK YOU!</button>
+    <button class="btn thanks-btn">PAYMENT RECEIVED</button>
+    <h1>Credit sent to machine.</h1>
+    <h2>Please check below.</h2>
+    <audio autoplay>
+      <source src="../assets/ka-ching.mp3" type="audio/mpeg">
+    </audio>
   </div>
 </template>
 

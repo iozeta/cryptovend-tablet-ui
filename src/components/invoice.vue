@@ -2,7 +2,7 @@
   <div class="invoice">
     <h1>Scan To Pay</h1>
     <div class="qr" v-if="invoice">
-      <qrcode-vue :value="invoice" size="275" level="H"></qrcode-vue>
+      <qrcode-vue :value="invoice" size="350" level="H"></qrcode-vue>
     </div>
     <img alt="Vue logo" src="../assets/logo.png">
   </div>

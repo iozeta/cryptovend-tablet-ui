@@ -58,4 +58,13 @@ export default {
   font-weight: bold;
   margin: 20px;  
 }
+.main h1 {
+  font-size: 65px;
+}
+.main h2 {
+  font-size: 45px;
+}
+.btn {
+  font-size: 50px;
+}
 </style>

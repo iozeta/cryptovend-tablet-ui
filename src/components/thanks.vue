@@ -25,8 +25,8 @@ export default {
 .thanks-btn{
   background: #1faf25;
   color: #FFF;
-  width: 250px;
-  height: 150px;
+  width: 350px;
+  height: 250px;
   border-radius: 25px;
   border: none;
 }

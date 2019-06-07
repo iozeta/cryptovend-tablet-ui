@@ -20,8 +20,8 @@ export default {
 .start-btn{
   background: #1faf25;
   color: #FFF;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   border: none;
 }
